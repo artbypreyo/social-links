@@ -20,7 +20,7 @@ h1 em{font-weight:500;color:#af776b}.period{color:#d99b67}
 .link-card:hover{transform:translateY(-3px);background:#eef2e9;box-shadow:0 8px 20px #253b351c}
 .link-card:focus-visible,.back-link:focus-visible{outline:3px solid #b76f5c;outline-offset:3px}
 .social-icon{width:48px;height:48px;flex:none;border-radius:13px;display:grid;place-items:center;font-size:32px;line-height:1;font-weight:700}
-.social-icon svg{width:25px;height:25px;display:block}.instagram{background:#f2d9cc;color:#9d5b54}.facebook{background:#dce7dd;color:#375d4c;font-family:Arial,sans-serif;padding-top:7px}.youtube{background:#f4dfd8;color:#b55347;font-size:23px;padding-left:3px}.whatsapp{background:#dcebdc;color:#3b7250}
+.social-icon svg{width:25px;height:25px;display:block}.instagram{background:#f2d9cc;color:#9d5b54}.facebook{background:#e8f1ff;color:#1877f2;font-family:Arial,sans-serif;padding-top:7px}.youtube{background:#f4dfd8;color:#b55347;font-size:23px;padding-left:3px}.whatsapp{background:#dcebdc;color:#3b7250}
 .link-copy{display:grid;gap:4px}.link-copy strong{font-size:15px}.link-copy small{font-size:11px;color:#78847c}.arrow{margin-left:auto;font-size:23px;color:#8f9e90}
 .handle{font-size:12px;letter-spacing:.11em;color:#9a8b78;margin:28px 0 0}
 .footer{position:relative;color:#a69883;margin:25px 0 0;text-align:center;font-size:9px}
