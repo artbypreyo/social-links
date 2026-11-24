@@ -16,12 +16,13 @@ h1 em{font-weight:500;color:#af776b}.period{color:#d99b67}
 .intro{max-width:380px;margin:22px auto 36px;color:#68736c;font-size:14px;line-height:1.7}
 .section-label{color:#9a8b78;margin:0 0 15px;text-align:left}
 .links-list{display:grid;gap:12px}
-.link-card{width:100%;min-height:82px;padding:14px 18px;display:flex;align-items:center;gap:17px;background:#f7f6ef;border:1px solid #e7e6da;border-radius:17px;color:#253b35;text-decoration:none;text-align:left;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
-.link-card:hover{transform:translateY(-3px);background:#eef2e9;box-shadow:0 8px 20px #253b351c}
+.link-card{width:100%;min-height:82px;padding:14px 16px;display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e7e1d7;border-radius:17px;color:#253b35;text-decoration:none;text-align:left;cursor:pointer;box-shadow:0 3px 12px #3d302b08;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.link-card:hover{transform:translateY(-3px);border-color:#cdbfb0;box-shadow:0 12px 25px #3d302b18}
+.link-card:active{transform:translateY(-1px)}
 .link-card:focus-visible,.back-link:focus-visible{outline:3px solid #b76f5c;outline-offset:3px}
-.social-icon{width:48px;height:48px;flex:none;border-radius:13px;display:grid;place-items:center;font-size:32px;line-height:1;font-weight:700}
-.social-icon svg{width:25px;height:25px;display:block}.instagram{background:#f2d9cc;color:#9d5b54}.facebook{background:#e8f1ff;color:#1877f2;font-family:Arial,sans-serif;padding-top:7px}.youtube{background:#f4dfd8;color:#b55347;font-size:23px;padding-left:3px}.whatsapp{background:#dcebdc;color:#3b7250}
-.link-copy{display:grid;gap:4px}.link-copy strong{font-size:15px}.link-copy small{font-size:11px;color:#78847c}.arrow{margin-left:auto;font-size:23px;color:#8f9e90}
+.social-icon{width:48px;height:48px;flex:none;border-radius:14px;display:grid;place-items:center;color:#fff}
+.social-icon svg{width:26px;height:26px;display:block}.instagram{background:linear-gradient(140deg,#7847b9 4%,#c13584 45%,#f77737 85%)}.facebook{background:#1877f2}.youtube{background:#e62117}.whatsapp{background:#25d366}
+.link-copy{display:grid;gap:4px;min-width:0}.link-copy strong{font-size:15px;font-weight:700}.link-copy small{font-size:11px;color:#69776e;line-height:1.35}.arrow{width:31px;height:31px;flex:none;margin-left:auto;border:1px solid #e7e1d7;border-radius:50%;display:grid;place-items:center;color:#65746b;transition:background .2s ease,color .2s ease,border-color .2s ease}.arrow svg{width:17px;height:17px}.link-card:hover .arrow{background:#253b35;border-color:#253b35;color:#fff}
 .handle{font-size:12px;letter-spacing:.11em;color:#9a8b78;margin:28px 0 0}
 .footer{position:relative;color:#a69883;margin:25px 0 0;text-align:center;font-size:9px}
 .qr-section{text-align:center}.qr-section .section-label{text-align:center}.qr-code{width:max-content;max-width:100%;margin:0 auto;padding:14px;background:white;border:1px solid #e7e6da;border-radius:18px}.qr-code svg{display:block;max-width:100%;height:auto}.qr-caption{color:#68736c;font-size:13px;margin:18px 0 20px}.download{justify-content:center;min-height:56px;font-weight:700}.download span{font-size:21px}.local-note{font-size:12px;line-height:1.5;color:#95514c;background:#fff0e9;border-radius:10px;padding:10px;margin:14px 0}.back-link{display:inline-block;margin-top:18px;color:#506d5b;font-size:13px;text-decoration:underline;text-underline-offset:3px}
@@ -40,7 +41,7 @@ h1 em{font-weight:500;color:#af776b}.period{color:#d99b67}
   .link-copy{gap:2px}
   .link-copy strong{font-size:13px}
   .link-copy small{font-size:10px}
-  .arrow{font-size:20px}
+  .arrow{width:28px;height:28px}
   .handle{font-size:11px;margin-top:14px}
   .footer{font-size:8px;margin-top:12px}
 }
